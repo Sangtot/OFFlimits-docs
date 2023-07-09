@@ -9,7 +9,12 @@ export default defineUserConfig({
   description: "OFFicial OFFlimits bot documentation",
   theme: defaultTheme({
     logo: "https://cdn.discordapp.com/attachments/851632709527666708/868999341979869224/OFFlimits.png",
-    contributors: false,
+    contributors: true,
+    editLink: true,
+    repoLabel: "OFFlimits-docs",
+    docsDir: 'docs',
+    repo: "offchase/OFFlimits-docs",
+    editLinkText: "Edit this page on GitHub",
     navbar: [
       { text: "Home", link: "/" },
       { text: "Guide", link: "/guide" },
