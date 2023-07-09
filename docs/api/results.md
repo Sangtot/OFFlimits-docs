@@ -4,13 +4,19 @@ You can link your bot to [OFFlimits server](https://discord.com/oauth2/authorize
 
 This code can be added to a built in slash command in your bot.
 
+## Requirements
+
 ::: tip
 First you need to fetch the messages from the results channel where you use the command, that should return an array of messages objects, which you convert to an array of strings, each string is a message content
 :::
 
+## Usage
+
 Use any library to make a post request to the url : `https://cdn.offlimitsbot.com/api/results` with the authorization header `Bearer d8eb181e-509d-4bc0-93ca-96765be40262`
 
 > Within the request data or body list the server id, channel id and an array containing the content of each message
+
+## Code Snippets
 
 ::: details JavaScript code
 ```js
