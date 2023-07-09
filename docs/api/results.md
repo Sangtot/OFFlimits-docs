@@ -30,7 +30,7 @@ const table = data.table // String results table
 ```
 :::
 
-::: details JavaScript code
+::: details python code
 ```py
 import aiohttp
 
