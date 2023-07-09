@@ -45,6 +45,7 @@ async with aiohttp.ClientSession() as session:
                 data = await resp.json() # object
                 table = data.get('table') # String results table
 ```
+:::
 
 Await the request to receive an object that contains :
 - error : if error exist means theres something wrong within the sent request
