@@ -10,20 +10,20 @@ hero:
   tagline: "OFFicial OFFlimits bot documentation"
   actions:
     - theme: brand
-      text: Start browsing
-      link: /guide/results
+      text: Guide
+      link: /guide
     - theme: alt
       text: Dashboard
       link: https://offlimitsbot.com/
 
 features:
   - title: Results
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: Calculate games results
     link: /guide/results
   - title: Board
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: Generate amazing tables
     link: /guide/board
   - title: Custom board
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: Use your custom design
     link: /guide/custom-board
 ---

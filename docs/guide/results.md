@@ -60,3 +60,11 @@ After writing down all teams we send the command `/results calculate` in the cha
 ## Outcome
 
 After a few seconds the bot will send a leaderboard table in `#operations` channel.
+
+```txt
+           RESULTS LEADERBOARD
+  #      name     total   wins   KP   PP
+
+  1.   Team-One      33      1   17   16
+  2.   Team-Two      33      1   17   16
+```

@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  appearance: "dark",
   lang: "en-US",
   title: "OFFlimits docs",
   description: "Official OFFlimits bot documentation",
