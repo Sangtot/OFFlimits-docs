@@ -29,7 +29,7 @@ If you already have these channels you can skip [setup](/guide/setup).
 Lets say we have the results of 2 games for `Team One`.
 **Input**
 
-```txt
+```txt:no-line-numbers
 10th place                     1st place
 Player A      3 kills          Player A      5 kills
 Player B      1 kills          Player B      2 kills
@@ -61,7 +61,7 @@ After writing down all teams we send the command `/results calculate` in the cha
 
 After a few seconds the bot will send a leaderboard table in `#operations` channel.
 
-```txt
+```txt:no-line-numbers
            RESULTS LEADERBOARD
   #      name     total   wins   KP   PP
 
