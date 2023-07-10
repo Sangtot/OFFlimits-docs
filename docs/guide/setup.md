@@ -2,16 +2,16 @@
 
 This page demonstrates how to setup [OFFlimits bot](https://discord.com/oauth2/authorize?client_id=728332591790293044&scope=bot+applications.commands&permissions=268445752&client_id=728332591790293044) on your server.
 
-# About
+## About
 OFFlimits setup is required to be able to use [OFFlimits bot](https://discord.com/oauth2/authorize?client_id=728332591790293044&scope=bot+applications.commands&permissions=268445752&client_id=728332591790293044) in your server.
 
 Setup can be done using prefixed command `+setup` or slash command `/setup`.
 
-# Requirements
+## Requirements
 
 To execute this command the bot needs Administrator permissions
 
-# Output
+## Output
 
 Sending the command, the bot is going to create 2 channels :
 
