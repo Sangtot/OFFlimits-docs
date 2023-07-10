@@ -13,9 +13,9 @@ import {
   DiscordReaction,
   DiscordReactions,
   install as DiscordMessageComponents,
-} from "@discord-message-components/vue";
+} from "./components/message/vue";
 import config from "../config";
-import '@discord-message-components/vue/dist/style.css'
+import "./components/message/vue/dist/style.css";
 
 export default defineClientConfig({
   enhance({ app }) {

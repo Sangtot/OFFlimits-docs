@@ -15,10 +15,10 @@ server, and to do that you need to use the command [setup](/guide/setup), which 
 			<template #interactions>
 				<DiscordInteraction profile="test" :command="true">setup</DiscordInteraction>
 			</template>
-✅ | Created <DiscordMention>#results-bot</DiscordMention>
+✅ | Created <DiscordMention type="channel">results-bot</DiscordMention>
 </DiscordMessage>
 <DiscordMessage :bot="true" profile="bot">
-✅ | Created <DiscordMention>#operations</DiscordMention>
+✅ | Created <DiscordMention type="channel">operations</DiscordMention>
 </DiscordMessage>
 
 If you already have these channels you can skip [setup](/guide/setup).

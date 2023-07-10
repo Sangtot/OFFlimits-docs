@@ -19,10 +19,10 @@ Sending the command, the bot is going to create 2 channels :
 			<template #interactions>
 				<DiscordInteraction profile="test" :command="true">setup</DiscordInteraction>
 			</template>
-✅ | Created <DiscordMention>#results-bot</DiscordMention>
+✅ | Created <DiscordMention type="channel">results-bot</DiscordMention>
 </DiscordMessage>
 <DiscordMessage :bot="true" profile="bot">
-✅ | Created <DiscordMention>#operations</DiscordMention>
+✅ | Created <DiscordMention type="channel">operations</DiscordMention>
 </DiscordMessage>
 
 ### results-bot:
