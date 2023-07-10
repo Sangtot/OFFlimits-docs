@@ -12,7 +12,7 @@ export default defineUserConfig({
     contributors: true,
     editLink: true,
     repoLabel: "OFFlimits-docs",
-    docsDir: 'docs',
+    docsDir: "docs",
     repo: "offchase/OFFlimits-docs",
     editLinkText: "Edit this page on GitHub",
     navbar: [
@@ -26,7 +26,18 @@ export default defineUserConfig({
         {
           text: "Guide",
           collapsible: true,
-          children: ["/guide/results", "/guide/board", "/guide/points-system","/guide/custom-board"],
+          children: [
+            "/guide/setup",
+            "/guide/results",
+            "/guide/board",
+            "/guide/logo",
+            "/guide/images",
+            "/guide/points-system",
+            "/guide/custom-board",
+            "/guide/slots",
+            "/guide/custom-slots",
+            "/guide/delete-results",
+          ],
         },
         {
           text: "Api",

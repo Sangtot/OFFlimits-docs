@@ -16,6 +16,14 @@ Use any library to make a post request to the url : `https://cdn.offlimitsbot.co
 
 > Within the request data or body list the server id, channel id and an array containing the content of each message
 
+## request's result
+
+Await the request to receive an object that contains :
+
+- error : if error exist means theres something wrong within the sent request
+- errors : an array containing calculation errors
+- table : a string of the results table
+
 ## Code Snippets
 
 :::: code-group
@@ -53,10 +61,3 @@ async with aiohttp.ClientSession() as session:
 ```
 :::
 ::::
-
-## request's result
-
-Await the request to receive an object that contains :
-- error : if error exist means theres something wrong within the sent request
-- errors : an array containing calculation errors
-- table : a string of the results table
