@@ -15,9 +15,15 @@ To execute this command the bot needs Administrator permissions
 
 Sending the command, the bot is going to create 2 channels :
 
-> `#results-bot`
->
-> `#operations`
+<DiscordMessage :bot="true" profile="bot">
+			<template #interactions>
+				<DiscordInteraction profile="test" :command="true">setup</DiscordInteraction>
+			</template>
+✅ | Created <DiscordMention>#results-bot</DiscordMention>
+</DiscordMessage>
+<DiscordMessage :bot="true" profile="bot">
+✅ | Created <DiscordMention>#operations</DiscordMention>
+</DiscordMessage>
 
 ### results-bot:
 

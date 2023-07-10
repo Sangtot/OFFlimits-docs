@@ -11,9 +11,15 @@ Board is a slash command that generates beautiful leaderboard designs and images
 Before using the command you have to setup OFFlimits bot in your
 server, and to do that you need to use the command [setup](/guide/setup), which will create 2 channels:
 
-> `#operations`
->
-> `#results-bot`
+<DiscordMessage :bot="true" profile="bot">
+			<template #interactions>
+				<DiscordInteraction profile="test" :command="true">setup</DiscordInteraction>
+			</template>
+✅ | Created <DiscordMention>#results-bot</DiscordMention>
+</DiscordMessage>
+<DiscordMessage :bot="true" profile="bot">
+✅ | Created <DiscordMention>#operations</DiscordMention>
+</DiscordMessage>
 
 If you already have these channels you can skip [setup](/guide/setup).
 

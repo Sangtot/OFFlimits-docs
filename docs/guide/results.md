@@ -18,9 +18,15 @@ Results command can be used in any channel or thread that has the word `results`
 Before using the command you have to setup OFFlimits bot in your
 server, and to do that you need to use the command [setup](/guide/setup), which will create 2 channels:
 
-> `#operations`
->
-> `#results-bot`
+<DiscordMessage :bot="true" profile="bot">
+			<template #interactions>
+				<DiscordInteraction profile="test" :command="true">setup</DiscordInteraction>
+			</template>
+✅ | Created <DiscordMention>#results-bot</DiscordMention>
+</DiscordMessage>
+<DiscordMessage :bot="true" profile="bot">
+✅ | Created <DiscordMention>#operations</DiscordMention>
+</DiscordMessage>
 
 If you already have these channels you can skip [setup](/guide/setup).
 
@@ -49,22 +55,47 @@ Now we array points after name in the following order:
 
 `Team Name [rank 1] [kills 1] [rank 2] [kills 2] and so on to infinity.`
 
-> `Team-One 10 5 1 12`
->
-> `Team-Two 10 5 1 12`
+<DiscordMessage profile="test">
+<DiscordMarkdown>
+Team-One 10 5 1 12
+{{ '\n' }}
+Team-Two 10 5 1 12
+</DiscordMarkdown>
+</DiscordMessage>
 
 ## Sending the command
 
 After writing down all teams we send the command `/results calculate` in the channel.
 
+<DiscordMessage profile="test" >
+<DiscordMarkdown>
+Team-One 10 5 1 12
+{{ '\n' }}
+Team-Two 10 5 1 12
+</DiscordMarkdown>
+</DiscordMessage>
+<DiscordMessage :bot="true" profile="bot">
+			<template #interactions>
+				<DiscordInteraction profile="test" :ephemeral="true" :command="true">results</DiscordInteraction>
+			</template>
+			OFFlimits is thinking...
+		</DiscordMessage>
+
 ## Outcome
 
-After a few seconds the bot will send a leaderboard table in `#operations` channel.
+After a few seconds the bot will send a leaderboard table in `#results-bot` channel.
 
+<DiscordMessage :bot="true" profile="bot">
+			<template #interactions>
+				<DiscordInteraction profile="test" :ephemeral="true" :command="true">results</DiscordInteraction>
+			</template>
+			
 ```txt:no-line-numbers
            RESULTS LEADERBOARD
   #      name     total   wins   KP   PP
 
-  1.   Team-One      33      1   17   16
-  2.   Team-Two      33      1   17   16
+1.        Team-One    33    1     17   16
+2.        Team-Two    33    1     17   16
+
 ```
+</DiscordMessage>

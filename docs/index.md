@@ -10,8 +10,8 @@ heroHeight: 200
 tagline: "OFFicial OFFlimits bot documentation"
 actions:
   - theme: brand
-    text: Guide
-    link: /guide
+    text: Getting Started
+    link: /getting-started
     type: primary
   - theme: alt
     text: Dashboard
