@@ -18,7 +18,8 @@ Use any library to make a post request to the url : `https://cdn.offlimitsbot.co
 
 ## Code Snippets
 
-::: details JavaScript code
+:::: code-group
+::: code-group-item JavaScript
 ```js
 const { default: axios } = require("axios");
 
@@ -35,8 +36,7 @@ const data = await response.data; // object
 const table = data.table // String results table
 ```
 :::
-
-::: details python code
+::: code-group-item Python
 ```py
 import aiohttp
 
@@ -52,6 +52,7 @@ async with aiohttp.ClientSession() as session:
                 table = data.get('table') # String results table
 ```
 :::
+::::
 
 ## request's result
 
