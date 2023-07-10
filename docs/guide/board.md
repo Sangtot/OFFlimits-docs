@@ -56,7 +56,7 @@ There are 7 board templates:
 :::
 ::: code-group-item Two 2
 ```txt:no-line-numbers
-```.-----------------------------------------------.
+.-----------------------------------------------.
 |              RESULTS LEADERBOARD              |
 |-----------------------------------------------|
 |  #  |      name      | total | wins | KP | PP |
