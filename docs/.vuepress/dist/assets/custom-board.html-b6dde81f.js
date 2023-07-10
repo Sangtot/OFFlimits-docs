@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-b17a23ba","path":"/guide/custom-board.html","title":"Custom Board","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1688912510000,"contributors":[{"name":"Niklaus#8030","email":"leadinggrand@gmail.com","commits":1}]},"filePathRelative":"guide/custom-board.md"}');export{a as data};
