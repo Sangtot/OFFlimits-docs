@@ -15,7 +15,7 @@ export default defineConfig({
 					targets: [
 						{
 							src: './src/styles/*',
-							dest: './dist/styles/',
+							dest: './dister/styles/',
 						},
 					],
 				}),

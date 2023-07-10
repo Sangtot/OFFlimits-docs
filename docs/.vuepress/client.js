@@ -15,7 +15,7 @@ import {
   install as DiscordMessageComponents,
 } from "./components/message/vue";
 import config from "../config";
-import "./components/message/vue/dist/style.css";
+import "./components/message/vue/dister/style.css";
 
 export default defineClientConfig({
   enhance({ app }) {
