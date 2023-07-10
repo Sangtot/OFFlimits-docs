@@ -53,6 +53,8 @@ async with aiohttp.ClientSession() as session:
 ```
 :::
 
+## request's result
+
 Await the request to receive an object that contains :
 - error : if error exist means theres something wrong within the sent request
 - errors : an array containing calculation errors
