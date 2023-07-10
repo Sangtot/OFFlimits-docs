@@ -26,7 +26,7 @@ export default defineUserConfig({
         {
           text: "Guide",
           collapsible: true,
-          children: ["/guide/results", "/guide/board"],
+          children: ["/guide/results", "/guide/board", "/guide/points-system","/guide/custom-board"],
         },
         {
           text: "Api",
