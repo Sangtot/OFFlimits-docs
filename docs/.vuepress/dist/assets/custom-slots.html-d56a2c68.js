@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-550bc034","path":"/guide/custom-slots.html","title":"Custom Slots","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1688968056000,"contributors":[{"name":"Niklaus#8030","email":"leadinggrand@gmail.com","commits":1}]},"filePathRelative":"guide/custom-slots.md"}');export{t as data};

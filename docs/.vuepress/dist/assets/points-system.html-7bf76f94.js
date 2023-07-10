@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-942d47e8","path":"/guide/points-system.html","title":"Points system","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1688968056000,"contributors":[{"name":"Niklaus#8030","email":"leadinggrand@gmail.com","commits":3}]},"filePathRelative":"guide/points-system.md"}');export{t as data};
