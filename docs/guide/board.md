@@ -29,7 +29,7 @@ There are 5 styles of boards:
 
 ### Board 1 & 2
 
-```txt               RESULTS LEADERBOARD               
+```txt:no-line-numbers               RESULTS LEADERBOARD               
    #         name        total   wins   KP   PP  
                                                  
   1.    team-one            58      2   27   31  
