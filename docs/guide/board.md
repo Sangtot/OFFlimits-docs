@@ -23,12 +23,14 @@ Before using board, you need to calculate results, otherwise board will no be ge
 
 To find out how to calculate results please read guide on [/results](/guide/results).
 
-## Board styles
+## Board Templates
 
-There are 5 styles of boards:
+There are 7 board templates:
 
 ### Board 1 & 2
 
+:::: code-group
+::: code-group-item One 1
 ```txt:no-line-numbers               RESULTS LEADERBOARD               
    #         name        total   wins   KP   PP  
                                                  
@@ -49,4 +51,35 @@ There are 5 styles of boards:
   15.   team-fifteen         5      0    3    2  
   16.   team-sixteen         3      0    3    0  
   17.   team-seventeen       2      0    1    1  
-  18.   team-eighteen        0      0    0    0  ```
+  18.   team-eighteen        0      0    0    0  
+```
+:::
+::: code-group-item Two 2
+```txt:no-line-numbers
+```.-----------------------------------------------.
+|              RESULTS LEADERBOARD              |
+|-----------------------------------------------|
+|  #  |      name      | total | wins | KP | PP |
+|-----|----------------|-------|------|----|----|
+| 1.  | team-one       |    58 |    2 | 27 | 31 |
+| 2.  | team-two       |    46 |    0 | 21 | 25 |
+| 3.  | team-three     |    42 |    0 | 29 | 13 |
+| 4.  | team-four      |    34 |    0 | 17 | 17 |
+| 5.  | team-five      |    32 |    1 |  8 | 24 |
+| 6.  | team-six       |    28 |    1 | 12 | 16 |
+| 7.  | team-seven     |    22 |    0 |  9 | 13 |
+| 8.  | team-eight     |    21 |    0 | 15 |  6 |
+| 9.  | team-nine      |    21 |    0 | 10 | 11 |
+| 10. | team-ten       |    19 |    0 |  6 | 13 |
+| 11. | team-eleven    |    15 |    0 |  3 | 12 |
+| 12. | team-twelve    |    14 |    0 | 12 |  2 |
+| 13. | team-thirteen  |    13 |    0 |  3 | 10 |
+| 14. | team-fourteen  |     8 |    0 |  3 |  5 |
+| 15. | team-fifteen   |     5 |    0 |  3 |  2 |
+| 16. | team-sixteen   |     3 |    0 |  3 |  0 |
+| 17. | team-seventeen |     2 |    0 |  1 |  1 |
+| 18. | team-eighteen  |     0 |    0 |  0 |  0 |
+'-----------------------------------------------'
+```
+:::
+::::
