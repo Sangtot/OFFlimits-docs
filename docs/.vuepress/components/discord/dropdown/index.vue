@@ -4,7 +4,7 @@
       <slot></slot>
     </div>
     <div>
-      <div style="color: #c9c1c1; padding: 15px 15px; border-radius: 4">
+      <div class="dropdownDiscordPlaceholder">
         {{ placeholder }}
       </div>
     </div>

@@ -4,7 +4,7 @@
   max-width: 400px;
   position: relative;
   background: #242527;
-  border-radius: 7px;
+  border-radius: 5px;
   display: block;
   color: white;
   z-index: 97;
@@ -15,6 +15,15 @@
   text-decoration: none;
   margin: 10px;
   cursor: pointer;
+}
+.dropdownDiscordPlaceholder {
+  color: #c9c1c1;
+  padding: 10px 15px;
+  border: 0.1rem solid #242527;
+}
+.dropdownDiscordPlaceholder:hover {
+  border-radius: 3px;
+  border: 0.1rem solid black;
 }
 @media (min-width: 800px) {
   .dropdownDiscord {
@@ -34,7 +43,7 @@
 }
 @media (max-width: 799px) {
   .dropdownDiscord {
-    min-width: 70vw;
+    max-width: 60vw;
   }
 }
 .dropdownDiscord ul li {
@@ -58,7 +67,7 @@
   background: #2c2f33;
 }
 .option-container:first-of-type {
-  border-radius: 7px 7px 0px 0px;
+  border-radius: 5px 5px 0px 0px;
 }
 .option-container:hover {
   background: #363a3f;

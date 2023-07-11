@@ -17,18 +17,16 @@ export default defineComponent({
   name: "DiscordDropdownOption",
   props: {
     title: String,
-    name: String,
     emoji: String,
     info: String,
   },
   setup(props, { slots }) {
-    const { name, title, emoji } = toRefs(props);
+    const { info, title, emoji } = toRefs(props);
 
     const option = computed(() => ({
       title: title?.value,
-      name: name?.value,
       emoji: emoji?.value,
-      info: emoji?.value,
+      info: info?.value,
     }));
 
     return {
