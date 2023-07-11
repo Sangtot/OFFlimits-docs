@@ -194,7 +194,7 @@ Use the discord buttons to position and resize the text
 
 Everything you save and move to setup the next text, the new text will appear on top of the previous text.
 
-#### Speading
+### Speeding
 
 After setting the first team with all its points you can use the same font settings for the next team to speed up the process
 
