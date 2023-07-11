@@ -19,10 +19,7 @@ export default defineUserConfig({
       "meta",
       { name: "apple-mobile-web-app-status-bar-style", content: "black" },
     ],
-    [
-      "link",
-      { rel: "apple-touch-icon", href: `../images/OFFlimits.png` },
-    ],
+    ["link", { rel: "apple-touch-icon", href: `../images/OFFlimits.png` }],
     [
       "link",
       {
@@ -48,9 +45,9 @@ export default defineUserConfig({
     docsDir: "docs",
     repo: "offchase/OFFlimits-docs",
     editLinkText: "Edit this page on GitHub",
-    navbar: navbar,
-    sidebarDepth: 1,
-    sidebar: sidebar,
+    navbar,
+    sidebarDepth: 2,
+    sidebar,
     themePlugins: [
       backToTopPlugin(),
       [
