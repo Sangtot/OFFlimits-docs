@@ -12,5 +12,6 @@ next:
 
 <img src="./images/OFFlimits.png" alt="OFFlimits docs" style="width:200px;"/>
 
+- [Dashboard](https://offlimitsbot.com/)
 - [Commands Guide](/guide)
 - [Api Guide](/api)
