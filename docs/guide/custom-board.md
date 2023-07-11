@@ -55,22 +55,14 @@ Send the command `/setboard customize text`.
 🖼️
 </DiscordMessage>
 
-<DiscordMessage :bot="true" profile="bot">{{'\n'}}</DiscordMessage>
-
-::: details Select which points to show
-
-```txt:no-line-numbers
-Kill
-Show total kills in the design
-Rank
-Show rank points in the design
-Total
-Show total points in the design
-WWCD
-Show wins count in the design
-```
-
-:::
+<DiscordMessage :bot="true" profile="bot">
+<DiscordDropdown placeholder="Select which points to show">
+<DiscordDropdownOption title="KP total" info="Show total kills in the design" emoji="💀"></DiscordDropdownOption>
+<DiscordDropdownOption title="PP points" info="Show rank points in the design" emoji="🏁"></DiscordDropdownOption>
+<DiscordDropdownOption title="Total" info="Show total points in the design" emoji="🏆"></DiscordDropdownOption>
+<DiscordDropdownOption title="wins" info="Show wins count in the design" emoji="🐓"></DiscordDropdownOption>
+</DiscordDropdown>
+</DiscordMessage>
 
 - From the dropdown select the points that your board contain
 - After you select the points, you will start styling the text that will be printed in the leaderboard

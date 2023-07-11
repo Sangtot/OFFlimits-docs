@@ -22,6 +22,8 @@ const sidebar = {
       collapsible: true,
       children: ["/api/results", "/api/board"],
     },
+    {text: "Dashboard", link: "https://offlimitsbot.com/dashboard"},
+    {text: "Support Server", link: "https://discord.gg/QcbuxZacdu"},
   ],
 };
 

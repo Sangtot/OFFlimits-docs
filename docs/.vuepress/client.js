@@ -14,6 +14,7 @@ import {
   DiscordReactions,
   install as DiscordMessageComponents,
 } from "./components/message/vue";
+import { DiscordDropdown, DiscordDropdownOption } from "./components/discord";
 import config from "../config";
 import "./components/message/vue/dister/style.css";
 
@@ -38,6 +39,8 @@ export default defineClientConfig({
       },
     });
 
+    app.component("DiscordDropdownOption", DiscordDropdownOption);
+    app.component("DiscordDropdown", DiscordDropdown);
     app.component("DiscordButton", DiscordButton);
     app.component("DiscordButtons", DiscordButtons);
     app.component("DiscordEmbed", DiscordEmbed);
