@@ -3,8 +3,8 @@ prev:
   text: Getting started
   link: /getting-started
 next:
-  text: Results
-  link: /guide/results
+  text: Setup
+  link: /guide/setup
 ---
 
 # Guide
@@ -12,7 +12,7 @@ next:
 This section features links to detailed documentation on how to use [OFFlimits bot](https://discord.com/oauth2/authorize?client_id=728332591790293044&scope=bot+applications.commands&permissions=268445752&client_id=728332591790293044) to calculate results and create amazing results boards in a matter of few seconds.
 
 - Guide
-  - [How setup OFFlimits bot](/guide/setup)
+  - [How to setup OFFlimits bot](/guide/setup)
   - [How to calculate results](/guide/results)
   - [How to print results](/guide/board)
   - [How set points system](/guide/points-system)
