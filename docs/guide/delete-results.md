@@ -31,6 +31,6 @@ Send the command `/delete-results`.
 If you have multiple results channels, use the command in the channel you want to delete content of and create a backup for.
 :::
 
-::: info
+::: warning Info
 Discord bots are not allowed to delete messages older than 14 days, therefore use delete-results before the messages is 14 days old.
 :::
