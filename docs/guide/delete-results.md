@@ -32,5 +32,5 @@ If you have multiple results channels, use the command in the channel you want t
 :::
 
 ::: warning Info
-Discord bots are not allowed to delete messages older than 14 days, therefore use delete-results before the messages is 14 days old.
+Discord bots are not allowed to delete messages older than 14 days, therefore use delete-results before the messages are 14 days old.
 :::
