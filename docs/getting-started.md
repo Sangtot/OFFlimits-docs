@@ -28,7 +28,7 @@ Invite the bot to your server [OFFlimits bot invite](https://discord.com/oauth2/
 
 ## Most common questions
 
-- [How setup OFFlimits bot](/guide/setup)
+- [How to setup OFFlimits bot](/guide/setup)
 - [How to calculate results](/guide/results)
 - [How to print results](/guide/board)
 - [How set points system](/guide/points-system)
