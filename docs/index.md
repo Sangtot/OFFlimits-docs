@@ -1,33 +1,24 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
-
-home: true
-logo: https://cdn.discordapp.com/attachments/851632709527666708/868999341979869224/OFFlimits.png
-heroImageDark: https://cdn.discordapp.com/attachments/851632709527666708/868999341979869224/OFFlimits.png
-heroText: "OFFlimits docs"
-heroAlt: "OFFlimits docs"
-heroHeight: 200
-tagline: "OFFicial OFFlimits bot documentation"
-actions:
-  - theme: brand
-    text: Getting Started
-    link: /getting-started
-    type: primary
-  - theme: alt
-    text: Dashboard
-    link: https://offlimitsbot.com/
-    type: secondary
-
-features:
-  - title: Results
-    details: Calculate games results
-    link: /guide/results
-  - title: Board
-    details: Generate amazing tables
-    link: /guide/board
-  - title: Custom board
-    details: Use your custom design
-    link: /guide/custom-board
-
-footer: All rights reserved OFFlimits
+date: yyyy-MM-dd
+next:
+  text: Getting Started
+  link: /getting-started
 ---
+
+# OFFlimits bot
+
+## Introduction
+
+OFFlimits is [discord bot](https://discord.com/oauth2/authorize?client_id=728332591790293044&scope=bot+applications.commands&permissions=268445752&client_id=728332591790293044) that can be used to calculate games results in just a few seconds and generate amazing table layouts that can be customized.
+
+<div style="display:flex;flex-direction=row;">
+<img src="./images/OFFlimits.png" alt="OFFlimits docs" style="width:100px;"/>
+<h1>OFFlimits</h1>
+</div>
+
+[<button class="customButton">Getting Started</button>](/getting-started)
+
+- [support server](https://discord.gg/QcbuxZacdu)
+- [Dashboard](https://offlimitsbot.com/)
+- [Commands Guide](/guide)
+- [Api Guide](/api)
