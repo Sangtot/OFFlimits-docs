@@ -89,3 +89,14 @@ There are 7 board templates:
 ```
 :::
 ::::
+
+### Board 3
+
+- Board 3 is a png image leaderboard that contain 18 teams and total statistics for kills, total points and total wins.
+- To enter team logos please read a guide on [logo](/guide/logo).
+  
+<img style="max-width:500px" src="https://offlimitsbot.com/static/media/board-3.c7ae34d289949a451bc6.png" alt="results bot"/>
+
+- Board 3 can be customized ( background and grid layout ) from the [dashboard](https://offlimitsbot.com/dashboard).
+
+<img style="max-width:200px" src="../images/custom-board-3.png" alt="results bot"/>

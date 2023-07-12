@@ -99,3 +99,8 @@ After a few seconds the bot will send a leaderboard table in `#results-bot` chan
 
 ```
 </DiscordMessage>
+
+## Related Topics
+
+- [How to change points system](/guide/points-system)
+- [How to get image results](/guide/board)
