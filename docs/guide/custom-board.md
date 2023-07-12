@@ -195,6 +195,6 @@ After setting the first team with all its points you can use the same font setti
 </DiscordMessage>
 <DiscordMessage profile="test">Yes</DiscordMessage>
 
-::: danger Note
+::: warning Note
 If replied with no, you will have to setup every text for the current team separately . Comes in handy if your design contains different styling for teams.
 :::
