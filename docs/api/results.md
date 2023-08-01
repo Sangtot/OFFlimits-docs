@@ -12,7 +12,7 @@ First you need to fetch the messages from the results channel where you use the 
 
 ## Usage
 
-Use any library to make a post request to the url : `https://cdn.offlimitsbot.com/api/results` with the authorization header `Bearer d8eb181e-509d-4bc0-93ca-96765be40262`
+Use any library to make a post request to the url : `https://api.offlimitsbot.com/api/results` with the authorization header `Bearer d8eb181e-509d-4bc0-93ca-96765be40262`
 
 > Within the request data or body list the server id, channel id and an array containing the content of each message
 
@@ -31,7 +31,7 @@ Await the request to receive an object that contains :
 ```js
 const { default: axios } = require("axios");
 
-const response = await axios('https://cdn.offlimitsbot.com/api/results', {
+const response = await axios('https://api.offlimitsbot.com/api/results', {
     method: 'post',
     headers: { Authorization: 'Bearer d8eb181e-509d-4bc0-93ca-96765be40262' }
     data: {
@@ -55,7 +55,7 @@ async with aiohttp.ClientSession() as session:
                 'channelId': channel_id, # The results channel id
                 'messages': messages # array of message.content
             }
-            async with session.post('https://cdn.offlimitsbot.com/api/results', headers=headers, json=json_data) as resp:
+            async with session.post('https://api.offlimitsbot.com/api/results', headers=headers, json=json_data) as resp:
                 data = await resp.json() # object
                 table = data.get('table') # String results table
 ```
