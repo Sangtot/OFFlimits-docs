@@ -10,7 +10,7 @@ This code can be added to a built in slash command in your bot.
 
 ## Usage
 
-Use any library to make a post request to the url : `https://cdn.offlimitsbot.com/api/board` with the authorization header `Bearer d8eb181e-509d-4bc0-93ca-96765be40262`
+Use any library to make a post request to the url : `https://api.offlimitsbot.com/api/board` with the authorization header `Bearer d8eb181e-509d-4bc0-93ca-96765be40262`
 
 > Within the request data or body list the guild instance, results channel id and desired board number
 >
@@ -34,7 +34,7 @@ data object the contains property image
 const { default: axios } = require("axios");
 const Discord = require("discord.js");
 
-const response = await axios('https://cdn.offlimitsbot.com/api/board', {
+const response = await axios('https://api.offlimitsbot.com/api/board', {
     method: 'post',
     headers: { Authorization: 'Bearer d8eb181e-509d-4bc0-93ca-96765be40262' },
     data: {
@@ -67,7 +67,7 @@ async with aiohttp.ClientSession() as session:
                 'board_number': number, # Number - The desired board number
                 'share_link': link # String - Share link for custom board when using board number  5
             }
-            async with session.post('https://cdn.offlimitsbot.com/api/board', headers=headers, json=json_data) as resp:
+            async with session.post('https://api.offlimitsbot.com/api/board', headers=headers, json=json_data) as resp:
                 data = await resp.json() # object
                 image = data.get('image') # String image url
 ```
