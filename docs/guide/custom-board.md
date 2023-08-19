@@ -198,3 +198,31 @@ After setting the first team with all its points you can use the same font setti
 ::: warning Note
 If replied with no, you will have to setup every text for the current team separately . Comes in handy if your design contains different styling for teams.
 :::
+
+### Customize images
+
+You can customize your leaderboard by adding custom images to it. To understand how images packs work:
+
+<img style="max-width:100%;width:400px;" alt="OFFlimits fonts" src="https://media.discordapp.net/attachments/934733578544226345/1130951742142550067/file.jpg"/>
+
+This leaderboard example has 5 images packs
+
+> 1. **Arrow:** to show the up and down arrows
+> 2. **Flag:** to show players flags
+> 3. **Logo:** players cars logo
+> 4. **Car:** players car image
+> 5. **Winner:** the big driver pic up top
+
+**How to use ?**
+
+`[Player name] 1 2 3 4 flag=ru car=car_name` and so on for each player / team
+
+**how to save images to packs to use them ?**
+
+use the command [images](/guide/images) to add images, and specify the pack name.
+
+::: warning
+All the names have to match.
+:::
+
+The **winner** pack only displays the image of the 1st player / team. You cannot change the name of this pack. 
